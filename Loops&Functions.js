@@ -5,8 +5,10 @@ n = Number.parseInt(n);
 for (let i=0;i<n;i++)
 {
     sum += (i+1)
+    console.log(i+1 , "+");
 };
 console.log("Sum of first "+ n +" natural number is: "+ sum );
+
 
 // For in Loop
 let obj = 
@@ -16,7 +18,10 @@ let obj =
     Pranay : 98
 }
 for(let a in obj)
-{console.log("Marks of "+a+ " are "+obj[a])}
+{console.log("Marks of "+a+ " are "+obj[a])
+    console.log(a)
+}
+
 
 // For of Loop
 
