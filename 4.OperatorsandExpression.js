@@ -1,18 +1,17 @@
-
 //1. Arithmetic  Operators
 let int1 =10;
 let int2 = 4;
-console.log("a+b =" , int1+int2);
-console.log("a*b =" , int1*int2);
-console.log("a-b =" , int1-int2);
-console.log("a%b =" , int1%int2); 2
-console.log("a/b =" , int1/int2);
+console.log("a+b =" , int1+int2); //14
+console.log("a*b =" , int1*int2); //40
+console.log("a-b =" , int1-int2);//6
+console.log("a%b =" , int1%int2); //2
+console.log("a/b =" , int1/int2);//2.5
 console.log("a**b =" , int1**int2); 
-console.log("++a =" , ++int1); 11
-console.log("a++ =" , int1++); 11
-console.log("a =" , int1); 11
-console.log("--a =" , --int1); 10
-console.log("a-- =" , int1--); 10
+console.log("a++ =" , int1++); //11
+console.log("++a =" , ++int1); //11
+console.log("a =" , int1); //11
+console.log("--a =" , --int1); //10
+console.log("a-- =" , int1--); //10
 console.log(int1);   
 //console.log("a+b =" , a+b);
 
@@ -28,7 +27,7 @@ console.log("assignment is now =" , assigment1);
 assigment1 *= 5; // same as assignment = assignment * 5
 console.log("assignment is now =" , assigment1);
 
-assigment1 /=3; // same as assignment = assignment / 5
+assigment1 /=3; // same as assignment = assignment / 3
 
 console.log("assignment is now =" , assigment1);
 
@@ -53,11 +52,12 @@ console.log("assignment is now =" , assigment1);
 */
 
 let Comparison1 = 5;
-let Comparison2 = "5.0";
+let Comparison2 = 6;
 console.log(Comparison1==Comparison2);
 console.log(Comparison1!=Comparison2);
 console.log(Comparison1===Comparison2);
 console.log(Comparison1!==Comparison2);
+console.log(Comparison1>Comparison2?Comparison1:Comparison2) // If condition is true it will return value of comparison 1 else Return value of Comparison2 i.e 6
 
 //4. Logical Operator
 

@@ -19,4 +19,7 @@ console.log(var3);
 
 const var4 = 50;
 console.log(var4)
- 
+
+var4 = 60;
+
+console.log(var4)
