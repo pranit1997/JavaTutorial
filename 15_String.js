@@ -1,9 +1,8 @@
-/*let  names = "Pranit";
-console.log(names);
-console.log(names.length);
-console.log(names[0]);
-console.log(names[4]);
-
+let  name1 = "Pranit";
+console.log(name1);
+console.log(name1.length);
+console.log(name1[0]);
+console.log(name1[4]);
 // Template Literals
 
 let boy1 = "Pranit";
@@ -39,12 +38,12 @@ for (let i=0; i<=text.length;i++)
 console.log(text[i]);
 }
 
-console.log(text.length);*/
+console.log(text.length);
 
-let names = "Pranit"
-console.log(names)
-console.log(names.length)
-console.log(names.toUpperCase())
-console.log(names.toLowerCase())
-console.log(names.slice(3))
-console.log(names.replace("Pranit","Pransh"))
+let name2 = "Pranit"
+console.log(name2)
+console.log(name2.length)
+console.log(name2.toUpperCase())
+console.log(name2.toLowerCase())
+console.log(name2.slice(3))
+console.log(name2.replace("Pranit","Pransh"))
