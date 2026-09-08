@@ -55,9 +55,10 @@ let num2 = Number.parseFloat(str4);
 console.log(num2);
 console.log(typeof num2);
 
-//ToString() method converts a number to a string.
+//ToString() method converts a number to a String
 let num3 = 10;
 console.log(typeof num3);
 let str5 = num3.toString();
 console.log(str5);
 console.log(typeof str5);
+
