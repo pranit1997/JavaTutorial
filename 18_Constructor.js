@@ -18,4 +18,3 @@ let emp3 = new Employee(103, "Pranay", 70000);
 emp1.display();
 emp2.display();
 emp3.display();
-
