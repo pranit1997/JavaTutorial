@@ -23,9 +23,9 @@ class Student
     Sdetails(sid,sname,grade)
 
     {
-        this.sid;
-        this.sname;
-        this.grade;
+        this.sid = sid;
+        this.sname = sname;
+        this.grade = grade;
     }
     
     display()
@@ -36,6 +36,11 @@ class Student
 
 let stu = new Student();
 
-stu.Sdetails();
+stu.Sdetails(101,"Parth", "D");
 stu.display();
+ 
+// This code indicates that the Student class has two methods: Sdetails and display. 
+// The Sdetails method is intended to set the properties of the student (sid, sname, grade), 
+// but it currently does not assign any values to these properties. 
+// The display method logs the properties to the console.
 
