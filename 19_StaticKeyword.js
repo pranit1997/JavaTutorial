@@ -21,4 +21,11 @@ console.log("Non-static method m2");
 // 1. We can access static variables and static methods using the class name without creating an instance of the class.
 
 console.log(Test.a); // Accessing static variable
-console.log(Test.b); // Accessing non-static variable (This will give undefined because b is non-static)
+//console.log(Test.b); // Accessing non-static variable (This will give undefined because b is non-static)
+
+Test.m1(); // Accessing static method
+//Test.m2(); // Accessing non-static method (This will give an error because m2 is non-static)
+
+let obj = new Test(); // Creating an instance of the class
+console.log(obj.b); // Accessing non-static variable through the instance
+obj.m2(); // Accessing non-static method through the instance
