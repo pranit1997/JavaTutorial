@@ -1,22 +1,31 @@
 class Animal {
-  constructor(name) 
+  constructor(color) 
   {
-    this.name = name;
+    this.color = color;
     } 
-printname() 
+printcolor() 
 {
-    console.log(this.name);
+    console.log(this.color);
   }
 }
 
 class Dog extends Animal {
-  constructor(name, breed) {
-    super(name);
-    this.breed = breed;
+  constructor(color, food) {
+    super(color);
+this.food = food;
   }
-
-  printInfo() {
-    this.printname();
-    console.log(this.breed);
-  }
+eating()
+{
+  console.log("Eating : ",this.food);
+  
 }
+
+display()
+{
+  this.printcolor();
+  this.eating();
+}
+}
+
+d = new Dog("Black","Bread")
+d.display();
